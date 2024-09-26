@@ -563,13 +563,13 @@ class _StepperState extends State<FxStepper> with TickerProviderStateMixin {
       case FxStepState.indexed:
       case FxStepState.editing:
       case FxStepState.complete:
-        return textTheme.bodyText1!;
+        return textTheme.bodyLarge!;
       case FxStepState.disabled:
-        return textTheme.bodyText1!.copyWith(
+        return textTheme.bodyLarge!.copyWith(
           color: _isDark() ? _kDisabledDark : _kDisabledLight,
         );
       case FxStepState.error:
-        return textTheme.bodyText1!.copyWith(
+        return textTheme.bodyLarge!.copyWith(
           color: _isDark() ? _kErrorDark : _kErrorLight,
         );
     }
@@ -583,13 +583,13 @@ class _StepperState extends State<FxStepper> with TickerProviderStateMixin {
       case FxStepState.indexed:
       case FxStepState.editing:
       case FxStepState.complete:
-        return textTheme.caption!;
+        return textTheme.bodySmall!;
       case FxStepState.disabled:
-        return textTheme.caption!.copyWith(
+        return textTheme.bodySmall!.copyWith(
           color: _isDark() ? _kDisabledDark : _kDisabledLight,
         );
       case FxStepState.error:
-        return textTheme.caption!.copyWith(
+        return textTheme.bodySmall!.copyWith(
           color: _isDark() ? _kErrorDark : _kErrorLight,
         );
     }
@@ -603,13 +603,13 @@ class _StepperState extends State<FxStepper> with TickerProviderStateMixin {
       case FxStepState.indexed:
       case FxStepState.editing:
       case FxStepState.complete:
-        return textTheme.bodyText1!;
+        return textTheme.bodyLarge!;
       case FxStepState.disabled:
-        return textTheme.bodyText1!.copyWith(
+        return textTheme.bodyLarge!.copyWith(
           color: _isDark() ? _kDisabledDark : _kDisabledLight,
         );
       case FxStepState.error:
-        return textTheme.bodyText1!.copyWith(
+        return textTheme.bodyLarge!.copyWith(
           color: _isDark() ? _kErrorDark : _kErrorLight,
         );
     }
